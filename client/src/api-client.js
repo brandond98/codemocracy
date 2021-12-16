@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'http://localhost:3001';
 
 function fetchRequest(path, options) {
   return fetch(BASE_URL + path, options)
